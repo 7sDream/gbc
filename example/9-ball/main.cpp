@@ -1,11 +1,10 @@
 #include <fstream>
-#include <iostream>
 #include <SDL2/SDL.h>
 #include "GBC.h"
 
 gbc::GLShapeArray<gbc::GLLoopline2D> ball;
 
-double eye[3] = {0, 0, 2};
+double eye[3] = {0, 0, 2.5};
 double center[3] = {0, 0, 0};
 double up[3] = {0, 1, 0};
 double angle_y = 90;  // range -90 - 90;
@@ -48,7 +47,6 @@ void myResize(int width, int height){
 #pragma clang diagnostic pop
 
 void myKeyboard(unsigned char key, int x, int y){
-    std::cout << key << std::endl;
     switch(key){
         case 'w':{
             eye[1] += 0.1;

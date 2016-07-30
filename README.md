@@ -4,7 +4,7 @@
 
 这是一个基于 OpenGL 和 GLUT 的 C++ 类库，将 OpenGL 的绘图操作和 GLUT 提供的 GUI 相关操作整理成类，方便使用。
 
-PS：这只是我在学习图形学课程时方便编写代码而写的一个工具库，对 3D 的支持还很不完善。
+PS：这不是一个渲染器，只是我在学习图形学课程时方便编写代码而写的一个工具库，对 3D 的支持还很不完善，未来可能会完善对 3D 和渲染的支持。
 
 ## 依赖
 
@@ -68,10 +68,6 @@ int main(int argc, char *argv[]){
 效果：
 
 ![](http://ww2.sinaimg.cn/large/88e401f0gw1f6bsmpwnorj20hs0e2glm.jpg)
-
-## 3D 样例
-
-
 
 ## 更多例子
 
